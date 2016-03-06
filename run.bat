@@ -1,0 +1,1 @@
+java -jar -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005 words_finder-1.0-SNAPSHOT-jar-with-dependencies.jar -d dict.txt -w абракадабра
